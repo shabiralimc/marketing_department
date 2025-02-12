@@ -1,0 +1,124 @@
+[14-Dec-2023 11:34:47 UTC] PHP Warning:  Undefined array key "username" in /home4/wowchakra/work.chakracom.net/include/php/sidebar-marketing.php on line 2
+[14-Dec-2023 11:34:47 UTC] PHP Warning:  Undefined variable $cellValue in /home4/wowchakra/work.chakracom.net/include/php/sidebar-marketing.php on line 24
+[14-Dec-2023 11:34:47 UTC] PHP Warning:  Undefined array key "user" in /home4/wowchakra/work.chakracom.net/include/php/sidebar-marketing.php on line 27
+[14-Dec-2023 11:34:47 UTC] PHP Deprecated:  strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in /home4/wowchakra/work.chakracom.net/include/php/sidebar-marketing.php on line 27
+[05-Jan-2024 10:36:24 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'email' in 'field list' in /home4/wowchakra/work.chakracom.net/user/marketing/client-master/marketing-client-index.php:31
+Stack trace:
+#0 /home4/wowchakra/work.chakracom.net/user/marketing/client-master/marketing-client-index.php(31): mysqli_query(Object(mysqli), 'SELECT id,clien...')
+#1 {main}
+  thrown in /home4/wowchakra/work.chakracom.net/user/marketing/client-master/marketing-client-index.php on line 31
+[05-Jan-2024 10:36:27 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'email' in 'field list' in /home4/wowchakra/work.chakracom.net/user/marketing/client-master/marketing-client-index.php:31
+Stack trace:
+#0 /home4/wowchakra/work.chakracom.net/user/marketing/client-master/marketing-client-index.php(31): mysqli_query(Object(mysqli), 'SELECT id,clien...')
+#1 {main}
+  thrown in /home4/wowchakra/work.chakracom.net/user/marketing/client-master/marketing-client-index.php on line 31
+[05-Jan-2024 10:36:27 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'email' in 'field list' in /home4/wowchakra/work.chakracom.net/user/marketing/client-master/marketing-client-index.php:31
+Stack trace:
+#0 /home4/wowchakra/work.chakracom.net/user/marketing/client-master/marketing-client-index.php(31): mysqli_query(Object(mysqli), 'SELECT id,clien...')
+#1 {main}
+  thrown in /home4/wowchakra/work.chakracom.net/user/marketing/client-master/marketing-client-index.php on line 31
+[05-Jan-2024 11:36:09 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'email' in 'field list' in /home4/wowchakra/work.chakracom.net/user/marketing/client-master/marketing-client-index.php:31
+Stack trace:
+#0 /home4/wowchakra/work.chakracom.net/user/marketing/client-master/marketing-client-index.php(31): mysqli_query(Object(mysqli), 'SELECT id,clien...')
+#1 {main}
+  thrown in /home4/wowchakra/work.chakracom.net/user/marketing/client-master/marketing-client-index.php on line 31
+[09-Jan-2024 11:51:46 UTC] PHP Warning:  Undefined array key "username" in /home4/wowchakra/work.chakracom.net/include/php/sidebar-marketing.php on line 2
+[09-Jan-2024 11:51:46 UTC] PHP Warning:  Undefined variable $cellValue in /home4/wowchakra/work.chakracom.net/include/php/sidebar-marketing.php on line 24
+[09-Jan-2024 11:51:46 UTC] PHP Warning:  Undefined array key "user" in /home4/wowchakra/work.chakracom.net/include/php/sidebar-marketing.php on line 27
+[09-Jan-2024 11:51:46 UTC] PHP Deprecated:  strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in /home4/wowchakra/work.chakracom.net/include/php/sidebar-marketing.php on line 27
+[15-Jan-2024 07:28:24 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/wowchakra/work.chakracom.net/user/marketing/client-master/marketing-client-delete.php:87) in /home4/wowchakra/work.chakracom.net/user/marketing/client-master/marketing-client-delete.php on line 88
+[29-Jan-2024 10:06:06 UTC] PHP Warning:  Undefined array key "username" in /home4/wowchakra/work.chakracom.net/include/php/sidebar-marketing.php on line 2
+[29-Jan-2024 10:06:06 UTC] PHP Warning:  Undefined variable $cellValue in /home4/wowchakra/work.chakracom.net/include/php/sidebar-marketing.php on line 24
+[29-Jan-2024 10:06:06 UTC] PHP Warning:  Undefined array key "user" in /home4/wowchakra/work.chakracom.net/include/php/sidebar-marketing.php on line 27
+[29-Jan-2024 10:06:06 UTC] PHP Deprecated:  strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in /home4/wowchakra/work.chakracom.net/include/php/sidebar-marketing.php on line 27
+[01-Feb-2024 05:10:55 UTC] PHP Warning:  Undefined array key "username" in /home4/wowchakra/work.chakracom.net/include/php/sidebar-marketing.php on line 2
+[01-Feb-2024 05:10:55 UTC] PHP Warning:  Undefined variable $cellValue in /home4/wowchakra/work.chakracom.net/include/php/sidebar-marketing.php on line 24
+[01-Feb-2024 05:10:55 UTC] PHP Warning:  Undefined array key "user" in /home4/wowchakra/work.chakracom.net/include/php/sidebar-marketing.php on line 27
+[01-Feb-2024 05:10:55 UTC] PHP Deprecated:  strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in /home4/wowchakra/work.chakracom.net/include/php/sidebar-marketing.php on line 27
+[01-Feb-2024 05:59:16 UTC] PHP Warning:  Undefined array key "username" in /home4/wowchakra/work.chakracom.net/include/php/sidebar-marketing.php on line 2
+[01-Feb-2024 05:59:16 UTC] PHP Warning:  Undefined variable $cellValue in /home4/wowchakra/work.chakracom.net/include/php/sidebar-marketing.php on line 24
+[01-Feb-2024 05:59:16 UTC] PHP Warning:  Undefined array key "user" in /home4/wowchakra/work.chakracom.net/include/php/sidebar-marketing.php on line 27
+[01-Feb-2024 05:59:16 UTC] PHP Deprecated:  strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in /home4/wowchakra/work.chakracom.net/include/php/sidebar-marketing.php on line 27
+[10-Feb-2024 06:04:55 UTC] PHP Warning:  Undefined array key "username" in /home4/wowchakra/work.chakracom.net/include/php/sidebar-marketing.php on line 2
+[10-Feb-2024 06:04:55 UTC] PHP Warning:  Undefined variable $cellValue in /home4/wowchakra/work.chakracom.net/include/php/sidebar-marketing.php on line 24
+[10-Feb-2024 06:04:55 UTC] PHP Warning:  Undefined array key "user" in /home4/wowchakra/work.chakracom.net/include/php/sidebar-marketing.php on line 27
+[10-Feb-2024 06:04:55 UTC] PHP Deprecated:  strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in /home4/wowchakra/work.chakracom.net/include/php/sidebar-marketing.php on line 27
+[10-Feb-2024 11:37:50 UTC] PHP Warning:  Undefined array key "username" in /home4/wowchakra/work.chakracom.net/include/php/sidebar-marketing.php on line 2
+[10-Feb-2024 11:37:50 UTC] PHP Warning:  Undefined variable $cellValue in /home4/wowchakra/work.chakracom.net/include/php/sidebar-marketing.php on line 24
+[10-Feb-2024 11:37:50 UTC] PHP Warning:  Undefined array key "user" in /home4/wowchakra/work.chakracom.net/include/php/sidebar-marketing.php on line 27
+[10-Feb-2024 11:37:50 UTC] PHP Deprecated:  strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in /home4/wowchakra/work.chakracom.net/include/php/sidebar-marketing.php on line 27
+[14-Feb-2024 10:29:55 UTC] PHP Warning:  Undefined array key "username" in /home4/wowchakra/work.chakracom.net/include/php/sidebar-marketing.php on line 2
+[14-Feb-2024 10:29:55 UTC] PHP Warning:  Undefined variable $cellValue in /home4/wowchakra/work.chakracom.net/include/php/sidebar-marketing.php on line 24
+[14-Feb-2024 10:29:55 UTC] PHP Warning:  Undefined array key "user" in /home4/wowchakra/work.chakracom.net/include/php/sidebar-marketing.php on line 27
+[14-Feb-2024 10:29:55 UTC] PHP Deprecated:  strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in /home4/wowchakra/work.chakracom.net/include/php/sidebar-marketing.php on line 27
+[14-Feb-2024 10:50:47 UTC] PHP Warning:  Undefined array key "username" in /home4/wowchakra/work.chakracom.net/include/php/sidebar-marketing.php on line 2
+[14-Feb-2024 10:50:47 UTC] PHP Warning:  Undefined variable $cellValue in /home4/wowchakra/work.chakracom.net/include/php/sidebar-marketing.php on line 24
+[14-Feb-2024 10:50:47 UTC] PHP Warning:  Undefined array key "user" in /home4/wowchakra/work.chakracom.net/include/php/sidebar-marketing.php on line 27
+[14-Feb-2024 10:50:47 UTC] PHP Deprecated:  strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in /home4/wowchakra/work.chakracom.net/include/php/sidebar-marketing.php on line 27
+[15-Feb-2024 07:51:51 UTC] PHP Warning:  Undefined array key "username" in /home4/wowchakra/work.chakracom.net/include/php/sidebar-marketing.php on line 2
+[15-Feb-2024 07:51:51 UTC] PHP Warning:  Undefined variable $cellValue in /home4/wowchakra/work.chakracom.net/include/php/sidebar-marketing.php on line 24
+[15-Feb-2024 07:51:51 UTC] PHP Warning:  Undefined array key "user" in /home4/wowchakra/work.chakracom.net/include/php/sidebar-marketing.php on line 27
+[15-Feb-2024 07:51:51 UTC] PHP Deprecated:  strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in /home4/wowchakra/work.chakracom.net/include/php/sidebar-marketing.php on line 27
+[21-Feb-2024 05:02:46 UTC] PHP Warning:  Undefined array key "username" in /home4/wowchakra/work.chakracom.net/include/php/sidebar-marketing.php on line 2
+[21-Feb-2024 05:02:46 UTC] PHP Warning:  Undefined variable $cellValue in /home4/wowchakra/work.chakracom.net/include/php/sidebar-marketing.php on line 24
+[21-Feb-2024 05:02:46 UTC] PHP Warning:  Undefined array key "user" in /home4/wowchakra/work.chakracom.net/include/php/sidebar-marketing.php on line 27
+[21-Feb-2024 05:02:46 UTC] PHP Deprecated:  strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in /home4/wowchakra/work.chakracom.net/include/php/sidebar-marketing.php on line 27
+[23-Feb-2024 07:32:18 UTC] PHP Warning:  Undefined array key "username" in /home4/wowchakra/work.chakracom.net/include/php/sidebar-marketing.php on line 2
+[23-Feb-2024 07:32:18 UTC] PHP Warning:  Undefined variable $cellValue in /home4/wowchakra/work.chakracom.net/include/php/sidebar-marketing.php on line 24
+[23-Feb-2024 07:32:18 UTC] PHP Warning:  Undefined array key "user" in /home4/wowchakra/work.chakracom.net/include/php/sidebar-marketing.php on line 27
+[23-Feb-2024 07:32:18 UTC] PHP Deprecated:  strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in /home4/wowchakra/work.chakracom.net/include/php/sidebar-marketing.php on line 27
+[04-Mar-2024 08:18:14 UTC] PHP Warning:  Undefined array key "username" in /home4/wowchakra/work.chakracom.net/include/php/sidebar-marketing.php on line 2
+[04-Mar-2024 08:18:14 UTC] PHP Warning:  Undefined variable $cellValue in /home4/wowchakra/work.chakracom.net/include/php/sidebar-marketing.php on line 24
+[04-Mar-2024 08:18:14 UTC] PHP Warning:  Undefined array key "user" in /home4/wowchakra/work.chakracom.net/include/php/sidebar-marketing.php on line 27
+[04-Mar-2024 08:18:14 UTC] PHP Deprecated:  strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in /home4/wowchakra/work.chakracom.net/include/php/sidebar-marketing.php on line 27
+[05-Mar-2024 11:30:56 UTC] PHP Warning:  Undefined array key "username" in /home4/wowchakra/work.chakracom.net/include/php/sidebar-marketing.php on line 2
+[05-Mar-2024 11:30:56 UTC] PHP Warning:  Undefined variable $cellValue in /home4/wowchakra/work.chakracom.net/include/php/sidebar-marketing.php on line 24
+[05-Mar-2024 11:30:56 UTC] PHP Warning:  Undefined array key "user" in /home4/wowchakra/work.chakracom.net/include/php/sidebar-marketing.php on line 27
+[05-Mar-2024 11:30:56 UTC] PHP Deprecated:  strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in /home4/wowchakra/work.chakracom.net/include/php/sidebar-marketing.php on line 27
+[14-Mar-2024 08:34:13 UTC] PHP Warning:  Undefined array key "username" in /home4/wowchakra/work.chakracom.net/include/php/sidebar-marketing.php on line 2
+[14-Mar-2024 08:34:13 UTC] PHP Warning:  Undefined variable $cellValue in /home4/wowchakra/work.chakracom.net/include/php/sidebar-marketing.php on line 24
+[14-Mar-2024 08:34:13 UTC] PHP Warning:  Undefined array key "user" in /home4/wowchakra/work.chakracom.net/include/php/sidebar-marketing.php on line 27
+[14-Mar-2024 08:34:13 UTC] PHP Deprecated:  strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in /home4/wowchakra/work.chakracom.net/include/php/sidebar-marketing.php on line 27
+[14-Mar-2024 11:23:59 UTC] PHP Warning:  Undefined array key "username" in /home4/wowchakra/work.chakracom.net/include/php/sidebar-marketing.php on line 2
+[14-Mar-2024 11:23:59 UTC] PHP Warning:  Undefined variable $cellValue in /home4/wowchakra/work.chakracom.net/include/php/sidebar-marketing.php on line 24
+[14-Mar-2024 11:23:59 UTC] PHP Warning:  Undefined array key "user" in /home4/wowchakra/work.chakracom.net/include/php/sidebar-marketing.php on line 27
+[14-Mar-2024 11:23:59 UTC] PHP Deprecated:  strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in /home4/wowchakra/work.chakracom.net/include/php/sidebar-marketing.php on line 27
+[16-Mar-2024 10:13:41 UTC] PHP Warning:  Undefined array key "username" in /home4/wowchakra/work.chakracom.net/include/php/sidebar-marketing.php on line 2
+[16-Mar-2024 10:13:41 UTC] PHP Warning:  Undefined variable $cellValue in /home4/wowchakra/work.chakracom.net/include/php/sidebar-marketing.php on line 24
+[16-Mar-2024 10:13:41 UTC] PHP Warning:  Undefined array key "user" in /home4/wowchakra/work.chakracom.net/include/php/sidebar-marketing.php on line 27
+[16-Mar-2024 10:13:41 UTC] PHP Deprecated:  strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in /home4/wowchakra/work.chakracom.net/include/php/sidebar-marketing.php on line 27
+[22-Mar-2024 06:18:55 UTC] PHP Warning:  Undefined array key "username" in /home4/wowchakra/work.chakracom.net/include/php/sidebar-marketing.php on line 2
+[22-Mar-2024 06:18:55 UTC] PHP Warning:  Undefined variable $cellValue in /home4/wowchakra/work.chakracom.net/include/php/sidebar-marketing.php on line 24
+[22-Mar-2024 06:18:55 UTC] PHP Warning:  Undefined array key "user" in /home4/wowchakra/work.chakracom.net/include/php/sidebar-marketing.php on line 27
+[22-Mar-2024 06:18:55 UTC] PHP Deprecated:  strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in /home4/wowchakra/work.chakracom.net/include/php/sidebar-marketing.php on line 27
+[26-Mar-2024 05:32:21 UTC] PHP Warning:  Undefined array key "username" in /home4/wowchakra/work.chakracom.net/include/php/sidebar-marketing.php on line 2
+[26-Mar-2024 05:32:21 UTC] PHP Warning:  Undefined variable $cellValue in /home4/wowchakra/work.chakracom.net/include/php/sidebar-marketing.php on line 24
+[26-Mar-2024 05:32:21 UTC] PHP Warning:  Undefined array key "user" in /home4/wowchakra/work.chakracom.net/include/php/sidebar-marketing.php on line 27
+[26-Mar-2024 05:32:21 UTC] PHP Deprecated:  strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in /home4/wowchakra/work.chakracom.net/include/php/sidebar-marketing.php on line 27
+[28-Mar-2024 05:00:13 UTC] PHP Warning:  Undefined array key "username" in /home4/wowchakra/work.chakracom.net/include/php/sidebar-marketing.php on line 2
+[28-Mar-2024 05:00:13 UTC] PHP Warning:  Undefined variable $cellValue in /home4/wowchakra/work.chakracom.net/include/php/sidebar-marketing.php on line 24
+[28-Mar-2024 05:00:13 UTC] PHP Warning:  Undefined array key "user" in /home4/wowchakra/work.chakracom.net/include/php/sidebar-marketing.php on line 27
+[28-Mar-2024 05:00:13 UTC] PHP Deprecated:  strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in /home4/wowchakra/work.chakracom.net/include/php/sidebar-marketing.php on line 27
+[02-Apr-2024 11:54:57 UTC] PHP Warning:  Undefined array key "username" in /home4/wowchakra/work.chakracom.net/include/php/sidebar-marketing.php on line 2
+[02-Apr-2024 11:54:57 UTC] PHP Warning:  Undefined variable $cellValue in /home4/wowchakra/work.chakracom.net/include/php/sidebar-marketing.php on line 24
+[02-Apr-2024 11:54:57 UTC] PHP Warning:  Undefined array key "user" in /home4/wowchakra/work.chakracom.net/include/php/sidebar-marketing.php on line 27
+[02-Apr-2024 11:54:57 UTC] PHP Deprecated:  strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in /home4/wowchakra/work.chakracom.net/include/php/sidebar-marketing.php on line 27
+[05-Apr-2024 11:47:19 UTC] PHP Warning:  Undefined array key "username" in /home4/wowchakra/work.chakracom.net/include/php/sidebar-marketing.php on line 2
+[05-Apr-2024 11:47:19 UTC] PHP Warning:  Undefined variable $cellValue in /home4/wowchakra/work.chakracom.net/include/php/sidebar-marketing.php on line 24
+[05-Apr-2024 11:47:19 UTC] PHP Warning:  Undefined array key "user" in /home4/wowchakra/work.chakracom.net/include/php/sidebar-marketing.php on line 27
+[05-Apr-2024 11:47:19 UTC] PHP Deprecated:  strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in /home4/wowchakra/work.chakracom.net/include/php/sidebar-marketing.php on line 27
+[17-Apr-2024 03:02:22 UTC] PHP Warning:  Undefined array key "username" in /home4/wowchakra/work.chakracom.net/include/php/sidebar-marketing.php on line 2
+[17-Apr-2024 03:02:22 UTC] PHP Warning:  Undefined variable $cellValue in /home4/wowchakra/work.chakracom.net/include/php/sidebar-marketing.php on line 24
+[17-Apr-2024 03:02:22 UTC] PHP Warning:  Undefined array key "user" in /home4/wowchakra/work.chakracom.net/include/php/sidebar-marketing.php on line 27
+[17-Apr-2024 03:02:22 UTC] PHP Deprecated:  strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in /home4/wowchakra/work.chakracom.net/include/php/sidebar-marketing.php on line 27
+[25-Apr-2024 05:34:36 UTC] PHP Warning:  Undefined array key "username" in /home4/wowchakra/work.chakracom.net/include/php/sidebar-marketing.php on line 2
+[25-Apr-2024 05:34:36 UTC] PHP Warning:  Undefined variable $cellValue in /home4/wowchakra/work.chakracom.net/include/php/sidebar-marketing.php on line 24
+[25-Apr-2024 05:34:36 UTC] PHP Warning:  Undefined array key "user" in /home4/wowchakra/work.chakracom.net/include/php/sidebar-marketing.php on line 27
+[25-Apr-2024 05:34:36 UTC] PHP Deprecated:  strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in /home4/wowchakra/work.chakracom.net/include/php/sidebar-marketing.php on line 27
+[01-Jul-2024 11:28:37 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/wowchakra/work.chakracom.net/user/marketing/client-master/marketing-client-delete.php:84) in /home4/wowchakra/work.chakracom.net/user/marketing/client-master/marketing-client-delete.php on line 85
+[19-Jul-2024 06:03:36 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/wowchakra/work.chakracom.net/user/marketing/client-master/marketing-client-delete.php:84) in /home4/wowchakra/work.chakracom.net/user/marketing/client-master/marketing-client-delete.php on line 85
+[04-Nov-2024 10:45:15 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/wowchakra/work.chakracom.net/user/marketing/client-master/marketing-client-delete.php:84) in /home4/wowchakra/work.chakracom.net/user/marketing/client-master/marketing-client-delete.php on line 85
+[04-Nov-2024 10:45:26 UTC] PHP Warning:  Trying to access array offset on value of type null in /home4/wowchakra/work.chakracom.net/user/marketing/client-master/marketing-client-delete.php on line 37
+[04-Nov-2024 10:45:26 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/wowchakra/work.chakracom.net/user/marketing/client-master/marketing-client-delete.php:37) in /home4/wowchakra/work.chakracom.net/user/marketing/client-master/marketing-client-delete.php on line 85
+[04-Nov-2024 10:45:35 UTC] PHP Warning:  Trying to access array offset on value of type null in /home4/wowchakra/work.chakracom.net/user/marketing/client-master/marketing-client-delete.php on line 37
+[04-Nov-2024 10:45:35 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/wowchakra/work.chakracom.net/user/marketing/client-master/marketing-client-delete.php:37) in /home4/wowchakra/work.chakracom.net/user/marketing/client-master/marketing-client-delete.php on line 85

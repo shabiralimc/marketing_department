@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Camera Capture</title>
+    <style>
+        /* Modal styles */
+        .modal {
+            display: none; /* Hidden by default */
+            position: fixed; /* Stay in place */
+            z-index: 1; /* Sit on top */
+            left: 0;
+            top: 0;
+            width: 100%; /* Full width */
+            height: 100%; /* Full height */
+            overflow: auto; /* Enable scroll if needed */
+            background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+            padding-top: 60px; /* Location of the box */
+        }
+
+        .modal-content {
+            background-color: #fefefe;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #888;
+            width: 80%;
+        }
+
+        /* Canvas styles */
+        #canvas {
+            cursor: crosshair;
+        }
+    </style>
+</head>
+<body>
+    <h2>Camera Capture</h2>
+    <video id="video" width="640" height="480" autoplay></video>
+    <button id="captureButton">Capture</button>
+
+    <!-- Modal for entering caption -->
+    <div id="captionModal" class="modal">
+        <div class="modal-content">
+            <span id="closeModal" style="float: right; cursor: pointer;">&times;</span>
+            <h3>Enter Photo Caption</h3>
+            <input type="text" id="captionInput" placeholder="Enter caption...">
+            <button id="saveCaptionButton">Save</button>
+        </div>
+    </div>
+
+    <canvas id="canvas" width="640" height="480" style="display:none;"></canvas>
+
+    <script>
+        const video = document.getElementById('video');
+        const canvas = document.getElementById('canvas');
+        const captureButton = document.getElementById('captureButton');
+        const closeModal = document.getElementById('closeModal');
+        const captionModal = document.getElementById('captionModal');
+        const captionInput = document.getElementById('captionInput');
+        const saveCaptionButton = document.getElementById('saveCaptionButton');
+        const ctx = canvas.getContext('2d');
+        const constraints = {
+            video: true
+        };
+
+        // Check if the device is mobile or desktop
+        function isMobile() {
+            return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+        }
+
+        // Get access to the camera
+        navigator.mediaDevices.getUserMedia(constraints)
+            .then(stream => {
+                video.srcObject = stream;
+            })
+            .catch(error => {
+                console.error('Error accessing the camera: ', error);
+            });
+
+        // Capture photo from the camera
+        captureButton.addEventListener('click', () => {
+            const context = canvas.getContext('2d');
+            context.drawImage(video, 0, 0, canvas.width, canvas.height);
+            // Show the canvas for editing
+            canvas.style.display = 'block';
+        });
+
+        // Draw on canvas
+        let isDrawing = false;
+        let startX, startY;
+        if (isMobile()) {
+            canvas.addEventListener('touchstart', (e) => {
+                isDrawing = true;
+                startX = e.touches[0].pageX - canvas.offsetLeft;
+                startY = e.touches[0].pageY - canvas.offsetTop;
+                e.preventDefault();
+            });
+            canvas.addEventListener('touchmove', (e) => {
+                if (!isDrawing) return;
+                const x = e.touches[0].pageX - canvas.offsetLeft;
+                const y = e.touches[0].pageY - canvas.offsetTop;
+                drawRectangle(startX, startY, x - startX, y - startY);
+                startX = x;
+                startY = y;
+                e.preventDefault();
+            });
+            canvas.addEventListener('touchend', () => {
+                isDrawing = false;
+                showCaptionInput();
+            });
+        } else {
+            canvas.addEventListener('mousedown', (e) => {
+                isDrawing = true;
+                startX = e.offsetX;
+                startY = e.offsetY;
+            });
+            canvas.addEventListener('mousemove', (e) => {
+                if (!isDrawing) return;
+                const x = e.offsetX;
+                const y = e.offsetY;
+                drawRectangle(startX, startY, x - startX, y - startY);
+            });
+            canvas.addEventListener('mouseup', () => {
+                isDrawing = false;
+                showCaptionInput();
+            });
+        }
+
+        function drawRectangle(x, y, width, height) {
+            const context = canvas.getContext('2d');
+            context.clearRect(0, 0, canvas.width, canvas.height); // Clear canvas
+            context.drawImage(video, 0, 0, canvas.width, canvas.height); // Redraw the captured photo
+            context.strokeStyle = 'red';
+            context.lineWidth = 2;
+            context.strokeRect(x, y, width, height);
+        }
+
+        function showCaptionInput() {
+            // Show the modal for entering the caption
+            captionModal.style.display = 'block';
+        }
+
+        // Close the caption modal
+        closeModal.addEventListener('click', () => {
+            captionModal.style.display = 'none';
+        });
+
+        // Save the caption and photo
+        saveCaptionButton.addEventListener('click', () => {
+            const caption = captionInput.value;
+            if (caption.trim() !== '') {
+                // Send the photo and caption to the server using AJAX
+                const imageDataURL = canvas.toDataURL('image/jpeg');
+                fetch('upload.php', {
+                    method: 'POST',
+                    body: JSON.stringify({ image: imageDataURL, caption: caption }),
+                    headers: {
+                        'Content-Type': 'application/json'
+                    }
+                })
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok');
+                    }
+                    return response.text();
+                })
+                .then(data => {
+                    console.log(data);
+                    // Close the modal after saving
+                    captionModal.style.display = 'none';
+                    // Refresh the page
+                    location.reload();
+                })
+                .catch(error => {
+                    console.error('There was a problem with the fetch operation:', error);
+                });
+            } else {
+                alert('Please enter a caption.');
+            }
+        });
+    </script>
+</body>
+</html>

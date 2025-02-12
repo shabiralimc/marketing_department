@@ -1,0 +1,20 @@
+[12-Jun-2024 07:03:31 UTC] PHP Warning:  Undefined array key "billable" in /home4/wowchakra/work.chakracom.net/user/marketing/report/combined-reports-main.php on line 128
+[12-Jun-2024 07:06:10 UTC] PHP Warning:  Undefined array key "billable" in /home4/wowchakra/work.chakracom.net/user/marketing/report/combined-reports-main.php on line 128
+[12-Jun-2024 07:06:10 UTC] PHP Warning:  Undefined array key "billable" in /home4/wowchakra/work.chakracom.net/user/marketing/report/combined-reports-main.php on line 128
+[17-Jun-2024 07:10:20 UTC] PHP Warning:  Undefined variable $totalfablabour in /home4/wowchakra/work.chakracom.net/user/marketing/report/reports.php on line 737
+[17-Jun-2024 07:10:20 UTC] PHP Warning:  Undefined variable $totalfabtransport in /home4/wowchakra/work.chakracom.net/user/marketing/report/reports.php on line 737
+[17-Jun-2024 07:10:20 UTC] PHP Warning:  Undefined variable $totalfabother in /home4/wowchakra/work.chakracom.net/user/marketing/report/reports.php on line 737
+[17-Jun-2024 07:10:20 UTC] PHP Warning:  Undefined variable $totalfabmaterial in /home4/wowchakra/work.chakracom.net/user/marketing/report/reports.php on line 737
+[17-Jun-2024 07:10:59 UTC] PHP Warning:  Undefined variable $totalfablabour in /home4/wowchakra/work.chakracom.net/user/marketing/report/reports.php on line 737
+[17-Jun-2024 07:10:59 UTC] PHP Warning:  Undefined variable $totalfabtransport in /home4/wowchakra/work.chakracom.net/user/marketing/report/reports.php on line 737
+[17-Jun-2024 07:10:59 UTC] PHP Warning:  Undefined variable $totalfabother in /home4/wowchakra/work.chakracom.net/user/marketing/report/reports.php on line 737
+[17-Jun-2024 07:10:59 UTC] PHP Warning:  Undefined variable $totalfabmaterial in /home4/wowchakra/work.chakracom.net/user/marketing/report/reports.php on line 737
+[18-Jun-2024 05:24:00 UTC] PHP Warning:  Undefined variable $totalfablabour in /home4/wowchakra/work.chakracom.net/user/marketing/report/reports.php on line 737
+[18-Jun-2024 05:24:00 UTC] PHP Warning:  Undefined variable $totalfabtransport in /home4/wowchakra/work.chakracom.net/user/marketing/report/reports.php on line 737
+[18-Jun-2024 05:24:00 UTC] PHP Warning:  Undefined variable $totalfabother in /home4/wowchakra/work.chakracom.net/user/marketing/report/reports.php on line 737
+[18-Jun-2024 05:24:00 UTC] PHP Warning:  Undefined variable $totalfabmaterial in /home4/wowchakra/work.chakracom.net/user/marketing/report/reports.php on line 737
+[26-Aug-2024 05:47:21 UTC] PHP Warning:  Undefined variable $totalfablabour in /home4/wowchakra/work.chakracom.net/user/marketing/report/reports.php on line 737
+[26-Aug-2024 05:47:21 UTC] PHP Warning:  Undefined variable $totalfabtransport in /home4/wowchakra/work.chakracom.net/user/marketing/report/reports.php on line 737
+[26-Aug-2024 05:47:21 UTC] PHP Warning:  Undefined variable $totalfabother in /home4/wowchakra/work.chakracom.net/user/marketing/report/reports.php on line 737
+[26-Aug-2024 05:47:21 UTC] PHP Warning:  Undefined variable $totalfabmaterial in /home4/wowchakra/work.chakracom.net/user/marketing/report/reports.php on line 737
+[03-Jan-2025 09:37:35 UTC] PHP Warning:  Undefined array key "billable" in /home4/wowchakra/work.chakracom.net/user/marketing/report/combined-reports-main.php on line 128
